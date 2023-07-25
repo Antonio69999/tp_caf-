@@ -46,12 +46,15 @@ function displayText2() {
 
 // Add sugar
 
-let nombreClics = 0;
-
-
-function comptage() {
-    nombreClics++;
-    document.getElementById("nombreClics").textContent = nombreClics;
-}
-
-document.getElementById("boutonClic").addEventListener("click", comptage);
+var button = document.getElementById('my-button');
+var button2 = document.getElementById('my-button2');
+var display = document.getElementById('sugar');
+var count = 0;
+button.addEventListener('click', function() {
+  count--
+  display.innerHTML = count; 
+});
+button2.addEventListener('click', function() {
+  count++
+  display.innerHTML = count; 
+});

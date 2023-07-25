@@ -28,14 +28,19 @@
     <div class="container">
 
         <div class="d-flex justify-content-center my-2">
-            <button type="button" class="btn btn-light" id="boutonClic" class="bouton">
-                Add a piece of sugar
-            </button>
+            <h4>
+                Add Sugar
+            </h4>
         </div>
 
-        <p class="d-flex justify-content-center">
-            You put <span id="nombreClics"> 0 </span> piece(s) of sugar.
-        </p>
+        <div class="d-flex justify-content-center my-2">
+            <button type="button" class="btn btn-light btn-sm" id="my-button">-</button>
+            <p class="d-flex justify-content-center">
+                You put <span id="sugar"> 0 </span> piece(s) of sugar.
+            </p>
+            <button type="button" class="btn btn-light btn-sm" id="my-button2">+</button>
+        </div>
+
 
     </div>
 
